@@ -1,0 +1,64 @@
+<!-- res/layout/custom_popup_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="310dp"
+    android:background="@color/primario3"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Qué ruta desea reservar?"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:outlineAmbientShadowColor="@color/white"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioUrbana"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ruta Urbana"
+                android:textSize="16sp"/>
+
+            <RadioButton
+                android:id="@+id/radioExtraurbana"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ruta Extraurbana"
+                android:textSize="16sp"/>
+
+            <RadioButton
+                android:id="@+id/radioAdministrativa"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ruta Administrativa"
+                android:textSize="16sp"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnAceptar"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/primario1"
+            android:text="Aceptar"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"/>
+
+</LinearLayout>

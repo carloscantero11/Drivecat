@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:backgroundTint="@color/white"
+    app:cardCornerRadius="28dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <ImageView
+                android:id="@+id/icono"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                app:srcCompat="@drawable/baseline_credit_card_24"
+                android:layout_alignParentLeft="true"/>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@id/icono"
+                android:orientation="vertical"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/icono">
+
+                <TextView
+                    android:id="@+id/ruta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="- - - - - - - - - - - - - - "
+                    android:textColor="@color/letra1"
+                    android:textSize="22sp"/>
+
+                <TextView
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- - - - - - - - - - - - -  - - - -"
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/letra2"
+                    android:textSize="19sp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/icono1"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                app:srcCompat="@drawable/baseline_check_circle_outline_24"
+                android:layout_alignParentLeft="true"/>
+
+            <!--
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/aceptar"
+                android:layout_width="69dp"
+                android:layout_height="69dp"
+                android:layout_gravity="center"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btnscan"
+                android:backgroundTint="@color/white"
+                android:contentDescription="Scanear"
+                android:drawableLeft="@drawable/baseline_check_circle_outline_24"
+                android:paddingStart="8dp"
+                android:paddingTop="3dp"
+                android:layout_marginRight="9dp"/> -->
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Inicio-->
+    <item
+        android:title="Inicio"
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"/>
+
+    <!--ActividadAdapter-->
+    <item
+        android:title="Reservaciones"
+        android:id="@+id/reservacion"
+        android:icon="@drawable/baseline_directions_transit_24"/>
+
+    <!--Perfil de Usuario-->
+    <item
+        android:title="Perfil"
+        android:id="@+id/perfil"
+        android:icon="@drawable/baseline_person_search_24"/>
+
+    <!--Menu-->
+    <item
+        android:title="Menú"
+        android:id="@+id/menu"
+        android:icon="@drawable/baseline_menu_24"/>
+
+</menu>

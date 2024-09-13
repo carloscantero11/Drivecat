@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base1"
+    tools:context=".adiciones.ModificarTrActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Texto-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modificar Datos"
+            android:textColor="@color/letra1"
+            android:textSize="44sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-thin"
+            android:layout_marginTop="30sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <!--Tarjeta de datos-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="360dp"
+            android:layout_height="430dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="38dp"
+            app:cardBackgroundColor="@color/base3"
+            android:layout_marginTop="18dp">
+
+            <!---->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <!--Nombre-->
+                <EditText
+                    android:id="@+id/modificarNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="18dp"
+                    android:background="@drawable/custom_edittext"
+                    android:drawableLeft="@drawable/baseline_person_24"
+                    android:paddingLeft="14dp"
+                    android:drawablePadding="8dp"
+                    android:hint="Nombre"
+                    android:textColorHint="@color/letra2"
+                    android:ems="10"
+                    android:textColor="@color/letra1"
+                    android:inputType="text"/>
+
+                <!--Apellido-->
+                <EditText
+                    android:id="@+id/modificarApellido"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="18dp"
+                    android:background="@drawable/custom_edittext"
+                    android:drawableLeft="@drawable/baseline_person_24"
+                    android:paddingLeft="14dp"
+                    android:drawablePadding="8dp"
+                    android:hint="Apellido"
+                    android:textColorHint="@color/letra2"
+                    android:ems="10"
+                    android:textColor="@color/letra1"
+                    android:inputType="text"/>
+
+                <!--Carrera-->
+                <EditText
+                    android:id="@+id/modificarPlaca"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="18dp"
+                    android:background="@drawable/custom_edittext"
+                    android:drawableLeft="@drawable/baseline_account_balance_24"
+                    android:paddingLeft="14dp"
+                    android:drawablePadding="8dp"
+                    android:hint="Placa"
+                    android:textColorHint="@color/letra2"
+                    android:ems="10"
+                    android:textColor="@color/letra1"
+                    android:inputType="text"/>
+
+                <!--Teléfono-->
+                <EditText
+                    android:id="@+id/modificarTelefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="18dp"
+                    android:background="@drawable/custom_edittext"
+                    android:drawableLeft="@drawable/baseline_smartphone_24"
+                    android:paddingLeft="14dp"
+                    android:drawablePadding="8dp"
+                    android:hint="Teléfono"
+                    android:textColorHint="@color/letra2"
+                    android:ems="10"
+                    android:textColor="@color/letra1"
+                    android:inputType="number"/>
+
+                <!-- Botón de Registro -->
+                <Button
+                    android:id="@+id/modificar"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="Modificar"
+                    android:backgroundTint="@color/primario1"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginHorizontal="50dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

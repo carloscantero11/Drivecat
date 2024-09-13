@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Mi Paleta de colores-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="base1">#F5F3F7</color>
+    <color name="base2">#E9E4ED</color>
+    <color name="base3">#D6C6E1</color>
+    <color name="letra1">#4A4A4A</color>
+    <color name="letra2">#878787</color>
+    <color name="primario1">#61398F</color>
+    <color name="primario2">#8B5FBF</color>
+    <color name="primario3">#9A73B5</color>
+    <color name="alternativo">#EC3472</color>
+
+</resources>

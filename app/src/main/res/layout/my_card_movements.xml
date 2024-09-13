@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:backgroundTint="@color/white"
+    app:cardCornerRadius="38dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <ImageView
+            android:id="@+id/icono"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:paddingStart="2dp"
+            android:paddingEnd="12dp"
+            app:srcCompat="@drawable/baseline_receipt_long_24"
+            android:layout_alignParentLeft="true"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="220dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@id/icono"
+            android:orientation="vertical"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@+id/icono">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Id: "
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/idMovimiento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1111"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/usuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usuario: Carlos2 Cans2sssstero"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/ruta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Ruta: Ruta Extraurbana"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/transportista"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chofer: Carlos Cantero"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/placa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Placa: 3433fe"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="2dp"
+            android:layout_toEndOf="@id/linearLayout"
+            android:layout_alignParentEnd="true">
+
+            <ImageView
+                android:id="@+id/icono1"
+                android:layout_width="74dp"
+                android:layout_height="74dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/baseline_calendar_month_24"/>
+
+            <TextView
+                android:id="@+id/fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12/12/12 09:16:03"
+                android:textColor="@color/letra2"
+                android:textSize="14sp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

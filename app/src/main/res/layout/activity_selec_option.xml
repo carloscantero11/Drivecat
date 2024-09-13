@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base1"
+    android:fitsSystemWindows="true"
+    tools:context=".SelecOptionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <!--Texto de Opción-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione una opción"
+            android:textAlignment="center"
+            android:textColor="@color/letra2"
+            android:textStyle="bold"
+            android:textSize="27sp"/>
+
+        <!--Botón de Transportista-->
+        <Button
+            android:id="@+id/btnTransportista"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Transportista"
+            android:backgroundTint="@color/alternativo"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="100dp"
+            android:layout_marginHorizontal="80dp"/>
+
+        <!--Botón de Usuario-->
+        <Button
+            android:id="@+id/btnUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Usuario"
+            android:backgroundTint="@color/primario1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="27dp"
+            android:layout_marginHorizontal="80dp"/>
+
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

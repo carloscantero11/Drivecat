@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/base2"
+    tools:context=".fragment.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Tarjeta de la Ruta Urbana-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="390dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center"
+            app:contentPadding="11dp"
+            app:cardBackgroundColor="@color/primario3"
+            app:cardCornerRadius="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="Nro de Usuarios"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/usuarios1"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="40sp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:background="@color/primario1"
+                    android:layout_marginHorizontal="15dp"/>
+
+                <LinearLayout
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Ruta"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Urbana"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="6dp"
+                        android:textSize="24sp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:background="@color/primario1"
+                    android:layout_marginHorizontal="15dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/scan1"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btnscan"
+                    android:contentDescription="Scanear"
+                    android:drawableLeft="@drawable/baseline_qr_code_24"
+                    android:paddingStart="12dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="8dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--Tarjeta de la Ruta Maracay-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="390dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center"
+            app:contentPadding="11dp"
+            app:cardBackgroundColor="@color/primario3"
+            app:cardCornerRadius="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="Nro de Usuarios"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/usuarios2"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="40sp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:background="@color/primario1"
+                    android:layout_marginHorizontal="15dp"/>
+
+                <LinearLayout
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Ruta"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:layout_width="142dp"
+                        android:layout_height="wrap_content"
+                        android:text="Extraurbana"
+                        android:layout_marginTop="6dp"
+                        android:textColor="@color/white"
+                        android:textSize="24sp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:background="@color/primario1"
+                    android:layout_marginHorizontal="15dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/scan2"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btnscan"
+                    android:contentDescription="Scanear"
+                    android:drawableLeft="@drawable/baseline_qr_code_24"
+                    android:paddingStart="12dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="8dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--Tarjeta de la Ruta Administrativa-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="390dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center"
+            app:contentPadding="11dp"
+            app:cardBackgroundColor="@color/primario3"
+            app:cardCornerRadius="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="Nro de Usuarios"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/usuarios3"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="40sp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:background="@color/primario1"
+                    android:layout_marginLeft="15dp"/>
+
+                <LinearLayout
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Ruta"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:layout_width="162dp"
+                        android:layout_height="wrap_content"
+                        android:text="Administrativo"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginLeft="3dp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:background="@color/primario1"
+                    android:layout_marginRight="15dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/scan3"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btnscan"
+                    android:contentDescription="Scanear"
+                    android:drawableLeft="@drawable/baseline_qr_code_24"
+                    android:paddingStart="12dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="8dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="159dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="Finalizar Viaje"
+                        android:gravity="center"
+                        android:textSize="18dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/finalizar"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/btncool"
+                        android:layout_marginTop="20dp"
+                        android:contentDescription="Scanear"
+                        android:drawableLeft="@drawable/baseline_auto_awesome_24"
+                        android:paddingStart="7dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="8dp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:background="@color/primario1"
+                    android:layout_marginHorizontal="15dp"/>
+
+                <LinearLayout
+                    android:layout_width="159dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="Soporte"
+                        android:gravity="center"
+                        android:textSize="18dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/soporte"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/btncool"
+                        android:layout_marginTop="20dp"
+                        android:contentDescription="Scanear"
+                        android:drawableLeft="@drawable/baseline_help_outline_24"
+                        android:paddingStart="11dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="8dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</FrameLayout>
