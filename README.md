@@ -5,8 +5,9 @@ a lo transportistas validar los pagos mediante un código QR de las tarjetas de 
 <br/>
 
 <div align="center"> 
-<img src="https://github.com/user-attachments/assets/d4a5260d-9004-4bb3-ab74-55deb820f920"  width="180"  height="180"/>
+<img src="https://github.com/user-attachments/assets/4b981b8a-98ab-4863-ba31-f326c33c59e0"  width="180"  height="180"/>
 </div>
+
 
 <br/>
 
@@ -73,7 +74,7 @@ El diseño de una tarjeta con código QR implica la integración visual y funcio
 
 <br/>
 <div align="center"> 
-<img src="https://github.com/user-attachments/assets/e6570ab7-26ee-4287-a31b-aa86368fbc60"  width="310"  height="190"/>
+<img src="https://github.com/user-attachments/assets/4ec7cb0d-a639-4fff-96cc-f1d0244e896f"  width="310"  height="190"/>
 </div>
 
 <br/>
@@ -82,14 +83,14 @@ El diseño de una tarjeta con código QR implica la integración visual y funcio
 
 <br/>
 
-<img src="https://github.com/user-attachments/assets/015e606f-adf5-4380-b347-8d392f135206"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
-<img src="https://github.com/user-attachments/assets/b47f9d3d-a611-4375-bf57-03e4344b491f"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
-<img src="https://github.com/user-attachments/assets/c61ffcfe-4ce5-469a-895b-7af0ba9005d7"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
-<img src="https://github.com/user-attachments/assets/955b5ce1-c546-4fd8-a1fb-738ae5dc8786"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
-<img src="https://github.com/user-attachments/assets/4624b222-eeed-4890-bc5e-78c4f513501a"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
-<img src="https://github.com/user-attachments/assets/cbf78382-3bde-4754-99b1-92e63acf801f"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
-<img src="https://github.com/user-attachments/assets/65bdf4c3-60bb-44ec-8fc2-4a5ca9a39147"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
-<img src="https://github.com/user-attachments/assets/8951a188-63b4-43ac-a358-8436538f1298"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/user-attachments/assets/e035eeaf-92ad-45bf-91e6-4d1352601f7f"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/user-attachments/assets/47da0296-e12f-45f5-84fd-c2d32a5a1ec4"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/user-attachments/assets/d3fc7194-9a51-4115-9e34-535d482220f5"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/user-attachments/assets/913cb63b-4933-4562-a482-6ea5ed0d6145"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/user-attachments/assets/9ce83493-32bd-42cf-b045-6c04e1800c6b"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/user-attachments/assets/6c8ce75a-6bbb-4b1b-a8b0-1742d48f64dc"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/user-attachments/assets/3512068e-d6f9-4d70-9fed-3e424e081c4f"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/user-attachments/assets/99af49aa-e895-4680-ac07-ef77a622f9d4"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
 
 <br/>
 
