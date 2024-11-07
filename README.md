@@ -1,6 +1,6 @@
 # 📌 Drivecat
 Drivecat es una aplicación móvil que permite a los estudiantes universitarios ver la información de los horarios de las rutas y reservas para el transporte. Además, permite 
-a lo transportistas validar los pagos mediante un código QR de las tarjetas de los estudiantes de manera eficiente y segura. 
+a los transportistas validar los pagos mediante un código QR de las tarjetas de los estudiantes de manera eficiente y segura. 
 
 <br/>
 
