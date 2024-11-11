@@ -83,13 +83,19 @@ El diseño de una tarjeta con código QR implica la integración visual y funcio
 
 <br/>
 
-<img src="https://github.com/user-attachments/assets/e035eeaf-92ad-45bf-91e6-4d1352601f7f"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
 <img src="https://github.com/user-attachments/assets/47da0296-e12f-45f5-84fd-c2d32a5a1ec4"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/user-attachments/assets/8b27b441-8c7c-43ed-9dfd-c53d34b116f5"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/user-attachments/assets/e035eeaf-92ad-45bf-91e6-4d1352601f7f"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/user-attachments/assets/59a1f956-80fc-44ce-b0bc-c6873a89431d"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
 <img src="https://github.com/user-attachments/assets/d3fc7194-9a51-4115-9e34-535d482220f5"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
-<img src="https://github.com/user-attachments/assets/913cb63b-4933-4562-a482-6ea5ed0d6145"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/user-attachments/assets/97ad8cea-9f43-48ba-9fb3-0e53b77debce"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
 <img src="https://github.com/user-attachments/assets/9ce83493-32bd-42cf-b045-6c04e1800c6b"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/user-attachments/assets/215c132a-a371-4036-8b07-a11bc2112c07"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/user-attachments/assets/913cb63b-4933-4562-a482-6ea5ed0d6145"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/user-attachments/assets/00c8b72d-fddd-4207-9fd2-a4e8e85b78a9"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
 <img src="https://github.com/user-attachments/assets/6c8ce75a-6bbb-4b1b-a8b0-1742d48f64dc"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
 <img src="https://github.com/user-attachments/assets/3512068e-d6f9-4d70-9fed-3e424e081c4f"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/user-attachments/assets/4d51f54d-11f0-4e90-800c-5360a4273289"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
 <img src="https://github.com/user-attachments/assets/99af49aa-e895-4680-ac07-ef77a622f9d4"  width="190"  height="410"/> &nbsp; &nbsp; &nbsp;
 
 <br/>
