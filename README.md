@@ -1,4 +1,21 @@
 # 📌 Drivecat
+
+## 📑 Tabla de Contenido  
+- [Descripción](#-descripción)  
+- [Características](#-características)  
+- [Tecnologías Utilizadas](#-tecnologías-utilizadas)  
+- [Instalación](#ℹ️-instalación)  
+- [Arquitectura](#-arquitectura)  
+- [Seguridad](#-seguridad)  
+- [Diseño de Tarjeta con Código QR](#-diseño-de-tarjeta-con-código-qr)  
+- [Imágenes de la App](#%EF%B8%8F-imagenes-de-la-app)  
+- [Licencia](#-licencia)  
+- [Autor](#%EF%B8%8F-autor)
+
+
+
+## 📜 Descripción
+
 Drivecat es una aplicación móvil que permite a los estudiantes universitarios ver la información de los horarios de las rutas y reservas para el transporte. Además, permite 
 a los transportistas validar los pagos mediante un código QR de las tarjetas de los estudiantes de manera eficiente y segura. 
 
@@ -8,10 +25,8 @@ a los transportistas validar los pagos mediante un código QR de las tarjetas de
 <img src="https://github.com/user-attachments/assets/4b981b8a-98ab-4863-ba31-f326c33c59e0"  width="180"  height="180"/>
 </div>
 
-
 <br/>
 
-## 📜 Descripción
 La app está desarrollada en Android Studio, utilizando Firebase para la gestión de datos y autenticación, y la biblioteca ZXing para el escaneo optimizado de códigos QR, garantizando un proceso de validación de pagos ágil y seguro.
 
 ## ✅ Características
